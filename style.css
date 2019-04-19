@@ -1,0 +1,95 @@
+.TextWrap {
+	float: right;
+	margin: 20px 0px 20px 40px;
+
+	object-fit: cover; width: 500px; height: 300px; 
+}
+
+
+body {
+	 font-family: Tahoma, Arial;
+	 font-size: 18px;
+	 padding: 0px;
+	 margin: 0px;
+	 background: #ddd;
+}
+.block { 
+width: 1000px;
+margin: 0 auto; 
+padding: 30px; 
+background: #eee; 
+font-size: 11pt;
+text-align: justify;
+    text-justify: inter-word; 
+	line-height: 1.5em; }
+
+
+nav { padding: 20px; text-align: center; background-image: url("images/table.jpg"); }
+
+
+table { width: 100%; background: #ccc; border-radius: .4em; }
+
+table th  {
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  background-image: url("images/table.jpg");
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+   }
+   
+ table td { padding: 10px; background: #ddd;  }
+ 
+  tr {
+    border-color: lighten(#34495E, 10%);
+text-align: center;
+  }
+  
+#table {
+	width:200px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+
+h1 { text-align: center; 
+	 margin: 10px 0px 40px 0px;
+	 
+}
+
+nav ul { margin: 0px; padding: 0px; list-style: none;}
+nav ul li {display: inline-block;}
+nav ul li a { 
+	position: relative; 
+	color: #eee; 
+	text-decoration: none; 
+	font-size: 12pt; 
+	display: inline-block; 
+	margin: 5px 20px;  
+	text-shadow: 2px 2px #000000;  
+}
+nav ul li a.active { color: orange; cursor: default; }
+nav ul li a.active:hover { color: orange; }
+nav ul li a:hover { color: green; }
+
+footer {
+width: 100%;
+background: #237520;
+float: left;
+margin: 0 0 .5% 0;
+box-shadow: 5px 5px 10px #202020
+}
+
+address {
+font-size : 16px;
+text-align : center;
+color: #efefef;
+padding: 1% 0;
+text-shadow: 1px 1px 0px #202020
+}
+
+.top {
+	text-align: center;		
+}
+
